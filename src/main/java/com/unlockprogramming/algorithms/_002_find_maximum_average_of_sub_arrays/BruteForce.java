@@ -9,7 +9,7 @@ class BruteForce {
 
     public double findMaxAverage(int[] nums, int k) {
 
-        // To support any real numbers (positives, zero, negatives)
+        // To support any numbers (positives, zero, negatives)
         double maxAverage = Double.NEGATIVE_INFINITY;
 
         /*
@@ -29,9 +29,7 @@ class BruteForce {
             double currentAverage = currentSum / k;
 
             // Replace max average if current average is maximum
-            if (maxAverage < currentAverage) {
-                maxAverage = currentAverage;
-            }
+            maxAverage = Math.max(maxAverage, currentAverage);
 
         }
 

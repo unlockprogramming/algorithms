@@ -9,7 +9,7 @@ class Optimized {
 
     public double findMaxAverage(int[] nums, int k) {
 
-        // To support any real numbers (positives, zero, negatives)
+        // To support any numbers (positives, zero, negatives)
         double maxAverage = Double.NEGATIVE_INFINITY;
         double sum = 0;
         int start = 0;
@@ -26,9 +26,7 @@ class Optimized {
                 double currentAverage = sum / k;
 
                 // Replace max average if current average is maximum
-                if (maxAverage < currentAverage) {
-                    maxAverage = currentAverage;
-                }
+                maxAverage = Math.max(maxAverage, currentAverage);
 
                 //decrease sum by subtracting the element which is going out from sliding window
                 sum -= nums[start];
