@@ -9,7 +9,8 @@ class BruteForce {
 
     public double findMaxAverage(int[] nums, int k) {
 
-        double maxAverage = 0;
+        // To support any real numbers (positives, zero, negatives)
+        double maxAverage = Double.NEGATIVE_INFINITY;
 
         /*
             MATH: to find number of possible contiguous sub arrays

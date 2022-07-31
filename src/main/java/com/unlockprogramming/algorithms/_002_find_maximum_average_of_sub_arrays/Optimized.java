@@ -9,7 +9,8 @@ class Optimized {
 
     public double findMaxAverage(int[] nums, int k) {
 
-        double maxAverage = 0;
+        // To support any real numbers (positives, zero, negatives)
+        double maxAverage = Double.NEGATIVE_INFINITY;
         double sum = 0;
         int start = 0;
 

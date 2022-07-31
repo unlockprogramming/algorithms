@@ -13,11 +13,10 @@ class SolutionsTest {
 
     private static Stream<Arguments> values() {
         return Stream.of(
-
                 Arguments.of(new int[]{1, 12, -5, -6, 50, 3}, 4, 12.75000),
-
-                Arguments.of(new int[]{5}, 1, 5.00000)
-
+                Arguments.of(new int[]{5}, 1, 5.00000),
+                Arguments.of(new int[]{-1}, 1, -1.00000),
+                Arguments.of(new int[]{0}, 1, 0.00000)
         );
     }
 
