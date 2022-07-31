@@ -10,19 +10,33 @@ class Optimized {
     public double findMaxAverage(int[] nums, int k) {
 
         double maxAverage = 0;
+        double sum = 0;
+        int start = 0;
 
-        for (int i = 0; i < nums.length - k + 1; i++) {
+        for (int end = 0; end < nums.length; end++) {
 
-            double currentSum = 0;
+            //increase sum by adding the element which is included in sliding window
+            sum += nums[end];
 
-            for (int j = 0; j < i; j++) {
-                currentSum += nums[j];
+            //move sliding window forward, only if we have hit the required sliding window size of k
+            if (end >= k - 1) {
+
+                // Calculate average of elements in current sliding window
+                double currentAverage = sum / k;
+
+                // Replace max average if current average is maximum
+                if (maxAverage < currentAverage) {
+                    maxAverage = currentAverage;
+                }
+
+                //decrease sum by subtracting the element which is going out from sliding window
+                sum -= nums[start];
+
+                // move the sliding window forward
+                start++;
+
             }
 
-            double currentAverage = currentSum / k;
-            if (maxAverage < currentAverage) {
-                maxAverage = currentAverage;
-            }
         }
 
         return maxAverage;

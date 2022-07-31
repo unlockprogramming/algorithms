@@ -34,3 +34,4 @@ bin/
 *.pdf
 .idea/
 target/
+*.bkp
