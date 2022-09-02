@@ -1,5 +1,7 @@
 package com.unlockprogramming.algorithms._001_two_sum;
 
+import com.unlockprogramming.algorithms.slidingwindow._001_two_sum.BruteForce;
+import com.unlockprogramming.algorithms.slidingwindow._001_two_sum.Optimized;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

@@ -1,4 +1,4 @@
-package com.unlockprogramming.algorithms._001_two_sum;
+package com.unlockprogramming.algorithms.slidingwindow._001_two_sum;
 
 /**
  * <a href="https://leetcode.com/problems/two-sum/">Question</a>

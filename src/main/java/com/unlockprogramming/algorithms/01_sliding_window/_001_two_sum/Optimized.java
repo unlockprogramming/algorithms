@@ -1,4 +1,4 @@
-package com.unlockprogramming.algorithms._001_two_sum;
+package com.unlockprogramming.algorithms.slidingwindow._001_two_sum;
 
 import java.util.HashMap;
 import java.util.Map;
