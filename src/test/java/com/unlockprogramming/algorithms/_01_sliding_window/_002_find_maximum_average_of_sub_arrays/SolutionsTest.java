@@ -1,7 +1,5 @@
-package com.unlockprogramming.algorithms._002_find_maximum_average_of_sub_arrays;
+package com.unlockprogramming.algorithms._01_sliding_window._002_find_maximum_average_of_sub_arrays;
 
-import com.unlockprogramming.algorithms.slidingwindow._002_find_maximum_average_of_sub_arrays.BruteForce;
-import com.unlockprogramming.algorithms.slidingwindow._002_find_maximum_average_of_sub_arrays.Optimized;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

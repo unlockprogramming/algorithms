@@ -1,13 +1,8 @@
-package com.unlockprogramming.algorithms.slidingwindow._001_two_sum;
+package com.unlockprogramming.algorithms._01_sliding_window._001_two_sum;
 
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * <a href="https://leetcode.com/problems/two-sum/">Question</a>
- *
- * @author Bhuwan Prasad Upadhyay
- */
 class Optimized {
 
     public int[] twoSum(int[] nums, int target) {

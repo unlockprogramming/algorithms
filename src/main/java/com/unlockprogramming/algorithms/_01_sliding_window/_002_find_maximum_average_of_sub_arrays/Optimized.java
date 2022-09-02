@@ -1,10 +1,5 @@
-package com.unlockprogramming.algorithms.slidingwindow._002_find_maximum_average_of_sub_arrays;
+package com.unlockprogramming.algorithms._01_sliding_window._002_find_maximum_average_of_sub_arrays;
 
-/**
- * <a href="https://leetcode.com/problems/maximum-average-subarray-i/">Question</a>
- *
- * @author Bhuwan Prasad Upadhyay
- */
 class Optimized {
 
     public double findMaxAverage(int[] nums, int k) {
