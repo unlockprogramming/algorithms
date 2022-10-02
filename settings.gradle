@@ -9,3 +9,6 @@
  */
 
 rootProject.name = 'algorithms'
+
+include(':Find Maximum Average Subarray')
+include(':Detect Loop in a Linked List')

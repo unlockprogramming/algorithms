@@ -1,5 +1,3 @@
-package com.unlockprogramming.algorithms._01_sliding_window._002_find_maximum_average_of_sub_arrays;
-
 class Optimized {
 
     public double findMaxAverage(int[] nums, int k) {
