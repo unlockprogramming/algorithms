@@ -1,0 +1,1 @@
+<https://www.unlockprogramming.com/blog/algorithms/find-maximum-average-of-sub-arrays/>
